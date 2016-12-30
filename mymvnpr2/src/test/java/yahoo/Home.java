@@ -39,6 +39,7 @@ public class Home
   public void validate_links()
   {
 	  open();
+	  System.out.println("validating links");
 	  String exp[]={"About Mail","Features","Get the App","Help"};
 	  //get the links from the webpage
 	  WebElement ul=driver.findElement(By.xpath("//ul[@class='Fl(end) Mend(10px) Lts(-0.31em) Tren(os) Whs(nw) My(6px)']"));
